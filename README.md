@@ -1,2 +1,0 @@
-# useAvatar
-Created with CodeSandbox
