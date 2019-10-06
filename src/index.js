@@ -5,7 +5,7 @@ import useAvatar from "./useAvatar.js";
 import "./styles.css";
 
 function App() {
-  const [res, color] = useAvatar("pfree brooo");
+  const [res, color] = useAvatar("jbilo mehdi");
 
   return (
     <div className="App" style={{ background: color }}>

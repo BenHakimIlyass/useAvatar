@@ -12,8 +12,7 @@ const useAvatar = e => {
   const handleColor = () => {
     var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
     let color = alphabet.indexOf(dist[0].toLowerCase());
-    const picked = colors[color];
-
+    const picked = color === -1 ? "#FF1A66" : colors[color];
     return picked;
   };
 
