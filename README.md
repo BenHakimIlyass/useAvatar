@@ -2,6 +2,14 @@
 Created with CodeSandbox
 useAvatar is a custom react hook, that return the first letter of (firstname and lastname) given as string.
 # Usage
+There are two returned values from our hook:
+The result of string split(in this example we name it "res").
+The random color of your component background(in this example we name it "color").
+
+```javascript
+const [res, color] = useAvatar("Firstname benhakim");
+```
+# Example 
 ```javascript
 import React from "react";
 
