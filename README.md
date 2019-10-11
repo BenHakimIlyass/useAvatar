@@ -4,13 +4,14 @@ useAvatar is a custom react hook, that return the first letter of (firstname and
 # Usage
 ```javascript
 import React from "react";
-import ReactDOM from "react-dom";
 
 import useAvatar from "./useAvatar.js";
 import "./styles.css";
 
 function App() {
-  const [res, color] = useAvatar("Ilyass benhakim");
+
+//Here we pass the user firstname and lastname to useAvatar hook.
+  const [res, color] = useAvatar("Firstname benhakim");
 
   return (
     <div className="App" style={{ background: color }}>
