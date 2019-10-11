@@ -23,3 +23,15 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
 ```
+# Recommended component style
+```css
+.App {
+  font-family: sans-serif;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+```
